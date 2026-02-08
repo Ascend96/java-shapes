@@ -6,12 +6,12 @@ public class ShapeArray {
         Shape cylinder = new Cylinder(3.0, 7.0);
         Shape cone = new Cone(2.0, 6.0);
 
-        // Store in an array
+        // Store in shape array
         Shape[] shapeArray = {sphere, cylinder, cone};
 
-        // Loop through array and print info
+        // Loop through array and call to string to print
         for (Shape shape : shapeArray) {
-            System.out.println(shape);
+            System.out.println(shape.toString());
         }
     }
 }
